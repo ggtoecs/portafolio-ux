@@ -245,3 +245,49 @@ body {
 .boton-estilo:hover {
   background-color: #7a9ae3;
 }
+
+.certificados {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.certificados h2 {
+  color: #d6b0ff;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.grid-certificados {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card-certificado {
+  background-color: #2e2e38;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.card-certificado h3 {
+  color: #9cb8fc;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.card-certificado p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #dcdcdc;
+}
+.card-ElCertificado {
+  grid-column: span 2;
+  background-color: #2e2821; /* Un color suave diferente */
+  border: 2px solid #bdf2f2;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 1rem;
+  border-radius: 10px;
+}
